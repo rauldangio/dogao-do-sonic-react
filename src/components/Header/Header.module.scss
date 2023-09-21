@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: #202020;
+}
+
+.header_content{
+   display: flex;
+   width: 80%;
+   justify-content: space-between;
+
+}
+
+.icone{
+  margin-left: 60px;
+  width: 150px;
+}
+
+.ancoras{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 600px;
+}

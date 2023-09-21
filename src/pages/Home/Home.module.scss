@@ -1,3 +1,14 @@
-.header{
+.main_product{
+  background-image: url('../../assets/dogao.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px ;
+
   display: flex;
+  align-items: center;
+  h1{
+    margin-left:150px;
+    color: #fff;
+    font-size: 50px;
+  }
 }
