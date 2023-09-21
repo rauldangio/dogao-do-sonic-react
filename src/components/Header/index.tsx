@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png';
+import logo from '../../assets/LogoCFundo.png';
 import style from './Header.module.scss';
 
 export default function Header(){

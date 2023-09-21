@@ -7,14 +7,13 @@
 
 .header_content{
    display: flex;
-   width: 80%;
+   width: 100%;
    justify-content: space-between;
 
 }
 
 .icone{
-  margin-left: 60px;
-  width: 150px;
+  width: 300px;
 }
 
 .ancoras{
@@ -22,4 +21,11 @@
   align-items: center;
   justify-content: space-around;
   width: 600px;
+  margin-right: 5%;
+  gap: 20px;
+  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2vw;
+  }
 }

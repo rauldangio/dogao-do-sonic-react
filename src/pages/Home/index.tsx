@@ -10,7 +10,13 @@ export default function Home(){
       </div>
 
       <div className={style.main_product}>
-          <h1>Os Melhores Cachorros Quentes com Molho Chilli</h1>
+          <div className={style.h1background}>
+            <h1>Os Melhores Cachorros Quentes com Molho Chilli</h1>
+          </div>
+      </div>
+
+      <div>
+
       </div>
     </div>
 
