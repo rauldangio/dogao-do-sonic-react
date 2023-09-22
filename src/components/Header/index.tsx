@@ -8,10 +8,10 @@ export default function Header(){
         <div className={style.header_content}>
           <img src={logo} alt="logo" className={style.icone}/>
           <div className={style.ancoras}>
-            <a href="/#">Quem somos</a>
-            <a href="/#">Cardapio</a>
-            <a href="/#">Nossos produtos</a>
-            <a href="/#">Delivery</a>
+            <a className={style.ancora} href="/#">Quem somos</a>
+            <a className={style.ancora} href="/#">Cardapio</a>
+            <a className={style.ancora} href="/#">Nossos produtos</a>
+            <a className={style.ancora} href="/#">Delivery</a>
           </div>
         </div>
       </header>
