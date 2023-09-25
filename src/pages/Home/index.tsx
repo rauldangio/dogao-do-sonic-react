@@ -1,8 +1,11 @@
 
+import React, { useState } from 'react';
 import Header from '../../components/Header';
+import Seacher from '../../components/Seacher';
 import style from './Home.module.scss';
 
 export default function Home(){
+  const [buscar, setBusca] = useState("");
   return (
     <div>
       <div>
@@ -16,7 +19,7 @@ export default function Home(){
       </div>
 
       <div>
-
+        <Seacher  busca={buscar} setBusca={setBusca}/>
       </div>
     </div>
 
