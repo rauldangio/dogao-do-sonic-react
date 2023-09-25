@@ -1,6 +1,6 @@
 .buscador {
   align-items: center;
-  background-color: #9596a5;
+  background-color: #202020;
   border-radius: 5px;
   display: flex;
   gap: 18px;
@@ -12,14 +12,18 @@
     width: 100%;
   }
   input {
-    background-color: #9596a5;
+    background-color: #202020;
     border: none;
     font-size: 1.5rem;
     font-weight: bold;
     outline: none;
     width: 100%;
     &::placeholder {
-      color: #4c4d5e;
+      color: rgb(0, 174, 255);
     }
   }
+}
+
+.input{
+  color: rgb(0, 174, 255);
 }
